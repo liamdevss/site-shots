@@ -1,0 +1,16 @@
+{
+    "name": "site-shots",
+    "version": "1.0.0",
+    "private": true,
+    "type": "module",
+    "description": "Full-page screenshots of every reachable page on any site (local or remote), zipped with a manifest.",
+    "bin": {
+        "site-shots": "./shoot.mjs"
+    },
+    "scripts": {
+        "shoot": "node shoot.mjs"
+    },
+    "dependencies": {
+        "playwright": "^1.62.1"
+    }
+}
