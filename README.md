@@ -2,6 +2,8 @@
 
 Full-page screenshots of every page on a site, local or remote.
 
+![site-shots gallery of stripe.com](docs/gallery.png)
+
 ```sh
 npm install
 node shoot.mjs https://myapp.test
